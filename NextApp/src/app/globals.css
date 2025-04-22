@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  --background: oklch(0.769 0.012 264.495);
+  --foreground: #171717;
+  --backdrop: rgba(246, 233, 233, 0.95);
+  --backdrop-hover: rgba(255, 255, 255, 0.95);
+  --badge-button-background: #f4efef;
+  --badge-button-background-hover: #b5a9a9;
+  --badge-button-text: #252525;
+  --maintext1: #000;
+  --maintext2: oklch(55.1% 0.027 264.364);
+  --maintext3: oklch(70.7% 0.022 261.325);
+  --maintext4: oklch(37.3% 0.034 259.733);
+
+  --float-slow: float 12s ease-in-out infinite;
+  --float-reverse: float-reverse 14s ease-in-out infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --backdrop: rgba(22, 22, 62, 0.95);
+    --backdrop-hover: rgba(16, 24, 76, 0.95);
+    --badge-button-background: #255e83;
+    --badge-button-background-hover: #13485c;
+    --badge-button-text: var(--maintext1);
+    --maintext1: #ededed;
+    --maintext2: oklch(0.812 0.023 263.174);
+    --maintext3: oklch(0.636 0.021 265.903);
+    --maintext4: oklch(0.679 0.043 264.926);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30px, -20px);
+  }
+}
+
+@keyframes float-reverse {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-25px, 25px);
+  }
+}
+
+.blob {
+  animation: var(--float-slow);
+}
+
+.blob-reverse {
+  animation: var(--float-reverse);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  color: var(--maintext1);
+}
+
+.custom_button {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-3xl);
+  justify-content: center;
+  text-align: center;
+  background-color: var(--badge-button-background);
+  transition-duration: 200ms;
+  box-shadow: var(--shadow-lg);
+}
+
+.custom_button:hover {
+  background-color: var(--badge-button-background-hover);
+}
+
+.custom_backdrop {
+  background-color: var(--backdrop);
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--radius-lg);
+  transition: background-color 200ms ease, box-shadow 200ms ease;
+  padding: calc(var(--spacing) * 6);
+}
+
+.custom_backdrop_link:hover {
+  background-color: var(--backdrop-hover);
+  box-shadow: var(--shadow-xl);
+}

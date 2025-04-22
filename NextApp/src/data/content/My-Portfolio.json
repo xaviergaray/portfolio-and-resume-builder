@@ -1,0 +1,17 @@
+[
+  {
+    "header": "Hi, I'm Xavier Garay",
+    "information": [
+      "I'm a software engineer and cybersecurity professional with a background in mechanical and electrical engineering. I specialize in building secure, high-performance systems, from embedded applications and autonomous drones to full-stack software and DevOps pipelines. This site showcases my projects, skills, and experience across domains where precision, security, and innovation matter most.",
+      "I'm seeking opportunities where I can contribute to meaningful decision-making, solve complex problems, and collaborate with a driven team. Ideally in a role that values both impact and balance, allowing me to grow professionally while still having time to be present with my family.",
+      "To explore my work and background, use the navigation tabs on the top right. You can return to this overview anytime by selecting \"My Portfolio\" on the top left."
+    ]
+  },
+  {
+    "header": "Website Design Choices",
+    "information": [
+      "This website is built with Next.js, a React-based framework designed for fast, scalable web applications. To streamline updates across my professional materials, I also developed a Rust program that transforms structured JSON data into a polished resume, ensuring a single source of truth for both this site and my downloadable resume.",
+      "All content is driven by JSON files, making the site easy to maintain and extend as my experience evolves. I believe great engineering starts with clarity of data, design, and direction. This site reflects that principle in its structure and execution."
+    ]
+  }
+]

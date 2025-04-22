@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Software Engineer, Space and Airborne Systems",
+    "company": "L3Harris Technologies",
+    "logo": "/logos/LHX.svg",
+    "location": "Clifton, NJ",
+    "date_range": "Jun 2023 - Present",
+    "details": [
+      "Developed Windows desktop GUI applications in <strong>C++</strong> using MFC for native interface design and event-driven architecture",
+      "Spearheaded and managed a project within an <strong>Agile</strong> environment from initial conceptualization through development to successful internal release and delivery, achieving an <strong>80%</strong> reduction in completion time",
+      "Managed the project’s <strong>SQL database</strong> and implemented new features on the user interface, thereby enhancing the overall user experience and a <strong>30%</strong> increase functionality of the project"
+    ],
+    "skills": [
+      {
+        "skill_slugs": ["c-cpp", "sql"],
+        "description": "Most of my time at L3 has been spent building Desktop apps in C++ while maintaining an Oracle SQL database. It was during these projects that I was able to find room for improvement enough to show the mentioned 80% improvement."
+      },
+      {
+        "skill_slugs": ["python", "git", "cassandra", "aws"],
+        "description": "As part of a recent initiative, I was assigned to a project with the goal of migrating some of our software to the cloud, where customers will be able to configure their own environments with custom data without worrying about the underlying infrastructure. This is built using mainly Python as the programming language, Docker for containerization, Cassandra for the database, and AWS for hosting."
+      }
+    ],
+    "slug": "l3-software-engineer"
+  },
+
+  {
+    "title": "Cyber Warfare Officer, 17A",
+    "company": "NJ Army National Guard",
+    "logo": "/logos/us-army.svg",
+    "location": "Ft Dix, NJ",
+    "date_range": "May 2023 - Present",
+    "details": [
+      "Established <strong>DevOps</strong> plans and tools in support of cybersecurity operations in alignment with a structured strategy to target adversary activities and capabilities",
+      "Designed and developed software for <strong>embedded systems</strong> tailored for small-unit level deployment in tactical environments, enhancing operational efficiency and reliability",
+      "Managed and maintained an <strong>Active Directory</strong> environment, including user/group administration, policy enforcement, and security configurations, ensuring seamless authentication and access control"
+    ],
+    "skills": [
+      {
+        "skill_slugs": ["c-cpp", "c-sharp", "python"],
+        "description": "Built several scripts and programs with the intent of building cyber tools for use in an operating environment. With C#, user-friendly GUIs could be easily created using WPF. C/C++ could be used for low-level programming and faster scripting while Python could be used for the extensive libraries."
+      },
+      {
+        "skill_slugs": ["docker", "linux", "powershell", "sql"],
+        "description": "We must have extensive skills in Docker, Linux, PowerShell, and databases to maneuver around a network with the purpose of finding or exploiting vulnerabilities. As it happens, Linux machines running Docker with a SQL database is a common environments to come across and the easiest to set up training with."
+      },
+      {
+        "skill_slugs": ["python", "machine-learning"],
+        "description": "Developed simple model used for detecting anomalous activity within training environment."
+      }
+    ],
+    "slug": "njarng-cwo"
+  },
+
+  {
+    "title": "Mechanical Engineering Intern",
+    "company": "MIT Lincoln Laboratory",
+    "logo": "/logos/MIT_Lincoln_Laboratory_logo.svg",
+    "location": "Lexington, MA",
+    "date_range": "Jul 2022 - Aug 2022",
+    "details": [
+      "Tested material properties of silica waveguides as part of the structural and thermal fluids group",
+      "Developed various software solutions to streamline data analysis processes and solve simulation problems, reducing data processing time by <strong>35%</strong>"
+    ],
+    "skills": [
+      {
+        "skill_slugs": ["matlab"],
+        "description": "Used Matlab for simulations and data visualization. Ultimately I led an initiative to have Matlab be used for preliminary simulations using simpler models before sending the more complicated versions to the super computer."
+      }
+    ],
+    "slug": "mitll-me-intern"
+  }
+]
