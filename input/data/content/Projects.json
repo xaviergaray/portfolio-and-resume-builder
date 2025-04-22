@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Portfolio Website and Resume Builder",
+    "skills": [
+      {
+        "skill_slug": "nextjs",
+        "description": "This website is built using the Next.js framework, which is built on top of React.js."
+      },
+      {
+        "skill_slug": "rust",
+        "description": "The program that translates this JSON content into my resume and uses it for the website is written in Rust."
+      }
+    ],
+    "summary": [
+      "Developed a program in Rust and Next.js which uses JSON files to update both my resume and this portfolio website!",
+      "Everything takes a modular approach, ensuring consistency across all endpoints and makes it possible to update information with ease."
+    ],
+    "details": [
+      "The biggest problem with maintaining a portfolio website and a resume is that I have to update both whenever a change is made, which can be rather inconvenient.",
+      "To fix this, I wrote a program in Rust that takes JSON files as input and produces a copy of my resume while validating it is in the correct format and updating the NextJS website.",
+      "If you are interest in seeing the code, everything is on github <a href=\"https://github.com/xaviergaray/portfolio-and-resume-builder\" target=\"_blank\" rel=\"noopener noreferrer\">here!</a>"
+    ],
+    "image": "/projects/PortfolioSite/man-5674344_1280.webp",
+    "slug": "portfolio-site"
+  },
+
+  {
+    "name": "Autonomous Water Collection Drone",
+    "skills": [
+      {
+        "skill_slug": "python",
+        "description": "Most of the software was developed using Python, including the OpenCV library and pymavlink, to autonomously operate the drone."
+      },
+      {
+        "skill_slug": "computer-vision",
+        "description": "OpenCV was used to recognize a QR code which relayed positional information to the program, allowing precision guidance for landing."
+      }
+    ],
+    "summary": [
+      "Developed computer vision landing algorithm for an autonomous drone capable of collecting water and returning to a ground station as part of a senior mechanical engineering project.",
+      "Won \"Best Mechanical Engineering Project\" award for the class of 2023."
+    ],
+    "details": [
+      "The drone was developed from scratch using eCalc to see how different components affect flight capabilities for the drone and soldering components individually to fit our custom purpose. The flight controller was a Pixhawk which interfaced well with ArduPilot for autonomous control.",
+      "Pymavlink was then used to communicate with the ArduPilot software to send signals based on GPS coordinates. When it reached the desired location, the drone would lower to a certain point above the ground and begin drawing water. Then it will return to the ground station and start the Computer Vision algorithm to initiate landing."
+    ],
+    "image": "/projects/Drone/sunset-1801720.webp",
+    "slug": "auto-water-drone"
+  },
+
+  {
+    "name": "3D Printer Filament Splicer",
+    "skills": [
+      {
+        "skill_slug": "c-cpp",
+        "description": "The software was developed using C++ with and Arduino board to perform all functions."
+      },
+      {
+        "skill_slug": "embedded-systems",
+        "description": "There was extensive embedded systems programming to combine all the components listed in the project description."
+      }
+    ],
+    "summary": [
+      "Led a team of high school students alongside a colleague to develop a tool that combines two different spools of 3D printer filament as part of the NJ Governor’s STEM Scholars program"
+    ],
+    "details": [
+      "Governor's STEM Scholars is a program with the goal of retaining STEM talent in New Jersey by having college students lead a team of high schoolers in a research project. For the term of the project, they are also expected to attended various events to expose them to opportunities within the state.",
+      "Our project was combining two different strands of 3D printer filament. This was done with an Arduino board, a heating element and thermistors for temperature control and measurement, servo motors for moving the filament lines, and an LCD board and control knob for user control. The housing was all 3D printed.",
+      "My job as one of the team leads was to guide the students towards a working solution, without taking over the project. This gave me a much better understanding on the components we were working and how to break complicated topics down to a level others can understand."
+    ],
+    "video": "https://www.youtube.com/embed/HY2Xxn8xZaQ",
+    "slug": "3d-printer-filament-splicer"
+  },
+
+  {
+    "name": "Age Prediction Model",
+    "skills": [
+      {
+        "skill_slug": "machine-learning",
+        "description": "Used machine learning models to take in several metrics related to health including bone density, blood pressure, vision sharpness, and many more in order to predict age."
+      },
+      {
+        "skill_slug": "python",
+        "description": "Python libraries were used to train, test, and validate the machine learning models."
+      }
+    ],
+    "summary": [
+      "As part of a final project for a course at NJIT, my team worked together to train several machine learning models with the task of age prediction. The motivations behind this was to see if there were factors that may contribute more towards aging than others, and perhaps we could counter these factors with future research."
+    ],
+    "details": [
+      "The objective of the project was to develop a model to predict individual age using easily obtainable features. This would allow a correlation to be determined between certain features which could then potentially be used to inspire future research into the causes of aging.",
+      "To ensure the best models were used, we decided to train using a variety of algorithms including a Sequential Neural Network, K-Nearest Neighbor, Linear Regression, Random Forest (RF), Univariate Training with RF, Support Vector Regression (SVR), Univariate Training with SVR, and Decision Tree.",
+      "We found that there were few easily obtainable methods of collection that were effective predictors of aging, with bone density, vision sharpness, and hearing ability being the most effective."
+    ],
+    "video": "https://www.youtube.com/embed/KQc-ykOW8mA",
+    "slug": "ml-school-project"
+  },
+
+  {
+    "name": "Anomalous Activity Detection",
+    "skills": [
+      {
+        "skill_slug": "python",
+        "description": "Used for data processing and programming machine learning models"
+      },
+      {
+        "skill_slug": "powershell",
+        "description": "Used for extracting event log data on a schedule"
+      },
+      {
+        "skill_slug": "machine-learning",
+        "description": "Used to examine existing event log data and find outliers"
+      }
+    ],
+    "summary": [
+      "The majority of the job of threat detection is identifying odd behavior. This project was meant as another means of analyzing data and flagging suspicious activity for review by the operator."
+    ],
+    "details": [
+      "This was a personal initiative to read Windows Server event log data and build a profile for access on that machine to be used for identifying what is non-standard behavior. The model was a regression model rather than a classifier, as this would allow the model to essentially come up with its own conclusions in the face of new \"routines\" as opposed to providing predefined sets of \"strange\" behavior."
+    ],
+    "image": "/projects/MLThreatHunting/virus-1920630.svg",
+    "slug": "ml-threat-detection"
+  },
+
+  {
+    "name": "Home Lab",
+    "skills": [
+      {
+        "skill_slug": "linux",
+        "description": "Most of the services I run are hosted on Linux virtual machines, specifically Ubuntu."
+      },
+      {
+        "skill_slug": "docker",
+        "description": "I have multiple services that run from within Docker containers and communicate with each other in their own virtual network."
+      },
+      {
+        "skill_slug": "powershell",
+        "description": "I have one Windows machine in which I rely on Windows Powershell for many of the functions when it comes to managing the rest of the machines."
+      }
+    ],
+    "summary": [
+      "Maintain Docker services within virtual machines hosted on Proxmox",
+      "Several, smaller projects built with Raspberry Pi (e.g., moisture/temperature sensor, EMS direction finder)",
+      "Provides a platform for learning, experimentation, and testing new projects"
+    ],
+    "details": [
+      "I have a machine running constantly with Proxmox running some virtual machines. On these machines, I have Docker containers which are hosting a variety of servers including a service for securely connecting machines via RDP/VNC, media servers for video, pictures, and books, and several smaller servers for running test environments for my personal projects.",
+      "Once I purchase a home, this environment will also be upgraded with a streaming platform connecting to CCTV cameras to provide near real-time views of cameras around my home."
+    ],
+    "image": "/projects/Lab/technology-6873012_1.webp",
+    "slug": "home-lab"
+  },
+
+  {
+    "name": "Multiplayer Survival Game",
+    "skills": [
+      {
+        "skill_slug": "c-cpp",
+        "description": "C++ is the programming language used with Unreal Engine to develop games"
+      }
+    ],
+    "summary": [
+      "A multiplayer survival game that takes inspiration from mythology and civilizations from different time periods. This game aims to allow the user more control over their journey with multiple paths they can take which affect the world around them.",
+      "This is a work in progress, with the main intent being to learn the technology. If the game gets advanced enough to be released, that would be an added benefit."
+    ],
+    "details": [
+      "A multiplayer survival game that takes inspiration from mythology and civilizations from different time periods. This game aims to allow the user more control over their journey with multiple paths they can take which affect the world around them.",
+      "Some of the issues I learned to overcome were replication between the server and clients, client-side prediction to avoid latency being a noticeable issue, server authority validation to prevent cheating, and high-performance programming for an overall improved player experience.",
+      "This is a work in progress, with the main intent being to learn the technology. If the game gets advanced enough to be released, that would be an added benefit."
+    ],
+    "image": "/projects/Game/river-4269024.webp",
+    "slug": "echoing-isles"
+  }
+]

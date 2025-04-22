@@ -1,0 +1,39 @@
+[
+  {
+    "school": "New Jersey Institute of Technology",
+    "major": "M.S. Electrical Engineering",
+    "comments": "In-Progress",
+    "location": "Newark, NJ",
+    "dates": "Jan 2025 - May 2026",
+    "link": "https://catalog.njit.edu/graduate/newark-college-engineering/electrical-computer/electrical-ms/",
+    "logo": "/logos/njit.svg",
+    "summary": "Built a deeper understanding of advanced concepts like signal processing, embedded systems, and communications. Strengthened my technical foundation and learned to apply theory to practical engineering problems",
+    "transcript":  "NJITTranscript.pdf",
+    "slug": "msee"
+  },
+
+  {
+    "school": "New Jersey Institute of Technology",
+    "major": "M.S. Computer Science",
+    "location": "Newark, NJ",
+    "dates": "Sep 2023 - Dec 2024",
+    "link": "https://catalog.njit.edu/graduate/computing-sciences/computer-science/ms/",
+    "logo": "/logos/njit.svg",
+    "summary": "Revealed what happens behind the code. From algorithms and computation theory to how systems are designed and optimized. Even with prior programming experience, it pushed me to think more like a computer scientist than just a coder",
+    "transcript":  "NJITTranscript.pdf",
+    "slug": "mscs"
+  },
+
+  {
+    "school": "Rutgers University",
+    "major": "B.S. Mechanical Engineering",
+    "comments": "Minors in Military Science and Mathematics; Summa Cum Laude",
+    "location": "New Brunswick, NJ",
+    "dates": "Jan 2020 - May 2023",
+    "link": "https://www.mae.rutgers.edu/admissions/undergraduate-program/mechanical-engineering",
+    "logo": "/logos/rutgers.svg",
+    "summary": "Provided a solid foundation in engineering principles, from thermodynamics to mechanical design. Sharpened my ability to solve real-world problems and approach complex systems with a practical, hands-on mindset",
+    "transcript":  "RutgersTranscript.pdf",
+    "slug": "bsme"
+  }
+]

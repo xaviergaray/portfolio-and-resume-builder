@@ -1,0 +1,32 @@
+[
+  {
+    "title": "GIAC Certified Forensic Specialist (GCFA)",
+    "description": "Demonstrated expertise in advanced digital forensics, incident response, and threat hunting, with proficiency in analyzing file systems, memory, and network artifacts to detect and mitigate cyber threats",
+    "link": "https://www.credly.com/badges/642083bf-fbf2-4d3e-9758-a50856a08cc1"
+  },
+  {
+    "title": "GIAC Certified Windows Security Administrator (GCWN)",
+    "description": "Developed advanced skills in securing Microsoft Windows environments through strategic PKI management, Group Policy, and PowerShell security",
+    "link":"https://www.credly.com/badges/4939897c-a763-431f-9b8e-7b5dad0994a3"
+  },
+  {
+    "title": "GIAC Reverse Engineering Malware Certification (GREM)",
+    "description": "Expertise in malware analysis and reverse engineering to safeguard IT infrastructure against sophisticated cyber threats",
+    "link": "https://www.credly.com/badges/89f9339d-38df-4b7b-86da-2d15178757c6"
+  },
+  {
+    "title": "Certified Associate in Project Management (CAPM)",
+    "description": "Skilled in assessing and fortifying enterprise security postures, and adept at managing hybrid (Agile and/or Waterfall) environments including cloud, mobile, and IoT",
+    "link": "https://www.credly.com/badges/329f17ef-9a34-4453-88b5-9d368bd2f992/linked_in_profile"
+  },
+  {
+    "title": "CompTIA Network+",
+    "description": "Adept at deploying, managing, and troubleshooting networks across various platforms, ensuring robust connectivity and cybersecurity",
+    "link": "https://www.credly.com/badges/7be2feed-6af4-4d27-8385-dcff43a9fd57?source=linked_in_profile"
+  },
+  {
+    "title": "CompTIA Security+",
+    "description": "Skilled in assessing and fortifying enterprise security postures, and adept at managing hybrid environments including cloud, mobile, and IoT",
+    "link": "https://www.credly.com/badges/e3b0c119-ef8a-41ff-b865-695b3aa6a65f?source=linked_in_profile"
+  }
+]
