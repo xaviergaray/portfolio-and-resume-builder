@@ -1,3 +1,6 @@
+mod ui;
+mod structures;
+
 use std::fs;
 use std::fs::read_to_string;
 use std::path::Path;
@@ -327,4 +330,6 @@ fn main() {
     copy_dir_recursive("input/public", "NextApp/public");
     copy_dir_recursive("input/data", "NextApp/src/data");
     copy_file("output/GarayXavierResume.pdf", "NextApp/public/files/GarayXavierResume.pdf");
+
+    let _ = ui::show();
 }
