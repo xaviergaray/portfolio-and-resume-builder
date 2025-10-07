@@ -1,0 +1,225 @@
+
+    \documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage{tabularx}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+    \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+    \newcommand{\area} [2] {
+        \vspace*{-9pt}
+        \begin{verse}
+            \textbf{#1}   #2
+        \end{verse}
+    }
+
+    \newcommand{\lineunder} {
+        \vspace*{-8pt} \\
+        \hspace*{-18pt} \hrulefill \\
+    }
+
+    \newcommand{\header} [1] {
+        {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+        \vspace*{-6pt} \lineunder
+    }
+
+    \newcommand{\employer} [3] {
+        { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+    }
+
+    \newcommand{\contact} [3] {
+        \vspace*{-10pt}
+        \begin{center}
+            {\Huge \scshape {#1}}\\
+            #2 \\ #3
+        \end{center}
+        \vspace*{-8pt}
+    }
+
+    \newenvironment{achievements}{
+        \begin{list}
+            {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+        \end{list}
+    }
+
+    \newcommand{\schoolwithcourses} [4] {
+        \textbf{#1} #2 $\bullet$ #3\\
+        #4 \\
+        \vspace*{5pt}
+    }
+
+    \newcommand{\school} [4] {
+        \textbf{#1} #2 $\bullet$ #3\\
+        #4 \\
+    }
+
+        \begin{document}
+    \vspace*{-40pt}
+    
+\vspace*{-10pt}
+\begin{center}{\Huge \scshape {Xavier Garay}}\\
+xaviergaray0010@gmail.com $\cdot$ (908) 528-4161 $\cdot$ DoD TS/SCI Security Clearance\\
+\end{center}
+\header{Work Experience}
+
+                \textbf{L3Harris Technologies} \hfill Clifton, NJ\\
+                \textit{Software Engineer, Space and Airborne Systems} \hfill Jun 2023 - Present\\
+                \vspace{-1mm}
+                \begin{itemize} \itemsep 1pt
+                
+                \item Contributed to the development of a cloud-hosted data visualization platform using \textbf{Python}, with \textbf{Dash} and \textbf{Flask} libraries, backed by a \textbf{Cassandra} database and deployed on \textbf{AWS}, enabling secure and scalable access to mission-critical insights
+                \item Developed Windows desktop GUI applications in \textbf{C++} using MFC for native interface design and event-driven architecture
+                \item Spearheaded and managed a project within an \textbf{Agile} environment from initial conceptualization through development to successful internal release and delivery, achieving an \textbf{80\%} reduction in completion time
+                \item Managed the project’s \textbf{SQL database} and implemented new features on the user interface, thereby enhancing the overall user experience and a \textbf{30\%} increase functionality of the project\end{itemize}
+                \textbf{NJ Army National Guard} \hfill Ft Dix, NJ\\
+                \textit{Cyber Warfare Officer, 17A} \hfill May 2023 - Present\\
+                \vspace{-1mm}
+                \begin{itemize} \itemsep 1pt
+                
+                \item Established \textbf{DevOps} plans and tools in support of cybersecurity operations in alignment with a structured strategy to target adversary activities and capabilities
+                \item Designed and developed software for \textbf{embedded systems} tailored for small-unit level deployment in tactical environments, enhancing operational efficiency and reliability
+                \item Managed and maintained an \textbf{Active Directory} environment, including user/group administration, policy enforcement, and security configurations, ensuring seamless authentication and access control\end{itemize}
+                \textbf{MIT Lincoln Laboratory} \hfill Lexington, MA\\
+                \textit{Mechanical Engineering Intern} \hfill Jul 2022 - Aug 2022\\
+                \vspace{-1mm}
+                \begin{itemize} \itemsep 1pt
+                
+                \item Tested material properties of silica waveguides as part of the structural and thermal fluids group
+                \item Developed various software solutions to streamline data analysis processes and solve simulation problems, reducing data processing time by \textbf{35\%}\end{itemize}
+
+\header{Education}
+
+            \textbf{M.S. Electrical Engineering} \hfill Newark, NJ\\
+            New Jersey Institute of Technology; In-Progress \hfill Jan 2025 - May 2026\\
+            \vspace{2mm}
+            
+            \textbf{M.S. Computer Science} \hfill Newark, NJ\\
+            New Jersey Institute of Technology \hfill Sep 2023 - Dec 2024\\
+            \vspace{2mm}
+            
+            \textbf{B.S. Mechanical Engineering} \hfill New Brunswick, NJ\\
+            Rutgers University; Minors in Military Science and Mathematics; Summa Cum Laude \hfill Jan 2020 - May 2023\\
+            \vspace{2mm}
+            
+
+\header{Certifications}
+
+            {\textbf{GIAC Exploit Researcher and Advanced Penetration Tester (GXPN)}}\\
+            Validated advanced skills in penetration testing, exploit development, and bypassing modern protection mechanisms to assess and strengthen network and application security\\
+            \vspace*{2mm}
+            
+            {\textbf{GIAC Certified Forensic Specialist (GCFA)}}\\
+            Demonstrated expertise in advanced digital forensics, incident response, and threat hunting, with proficiency in analyzing file systems, memory, and network artifacts to detect and mitigate cyber threats\\
+            \vspace*{2mm}
+            
+            {\textbf{GIAC Certified Windows Security Administrator (GCWN)}}\\
+            Developed advanced skills in securing Microsoft Windows environments through strategic PKI management, Group Policy, and PowerShell security\\
+            \vspace*{2mm}
+            
+            {\textbf{GIAC Reverse Engineering Malware Certification (GREM)}}\\
+            Expertise in malware analysis and reverse engineering to safeguard IT infrastructure against sophisticated cyber threats\\
+            \vspace*{2mm}
+            
+            {\textbf{Certified Associate in Project Management (CAPM)}}\\
+            Skilled in assessing and fortifying enterprise security postures, and adept at managing hybrid (Agile and/or Waterfall) environments including cloud, mobile, and IoT\\
+            \vspace*{2mm}
+            
+            {\textbf{CompTIA Network+}}\\
+            Adept at deploying, managing, and troubleshooting networks across various platforms, ensuring robust connectivity and cybersecurity\\
+            \vspace*{2mm}
+            
+            {\textbf{CompTIA Security+}}\\
+            Skilled in assessing and fortifying enterprise security postures, and adept at managing hybrid environments including cloud, mobile, and IoT\\
+            \vspace*{2mm}
+            
+
+\header{Projects}
+
+            {\textbf{Portfolio Website and Resume Builder}}\\
+            \textit{, }
+            \vspace{-1mm}
+            \begin{itemize} \itemsep 1pt
+            
+                    \item Developed a program in Rust and Next.js which uses JSON files to update both my resume and this portfolio website!
+                
+                    \item Everything takes a modular approach, ensuring consistency across all endpoints and makes it possible to update information with ease.
+                
+            \end{itemize}
+            \vspace*{2mm}
+            
+            {\textbf{Autonomous Water Collection Drone}}\\
+            \textit{, }
+            \vspace{-1mm}
+            \begin{itemize} \itemsep 1pt
+            
+                    \item Developed computer vision landing algorithm for an autonomous drone capable of collecting water and returning to a ground station as part of a senior mechanical engineering project.
+                
+                    \item Won "Best Mechanical Engineering Project" award for the class of 2023.
+                
+            \end{itemize}
+            \vspace*{2mm}
+            
+            {\textbf{3D Printer Filament Splicer}}\\
+            \textit{, }
+            \vspace{-1mm}
+            \begin{itemize} \itemsep 1pt
+            
+                    \item Led a team of high school students alongside a colleague to develop a tool that combines two different spools of 3D printer filament as part of the NJ Governor’s STEM Scholars program
+                
+            \end{itemize}
+            \vspace*{2mm}
+            
+            {\textbf{Age Prediction Model}}\\
+            \textit{, }
+            \vspace{-1mm}
+            \begin{itemize} \itemsep 1pt
+            
+                    \item As part of a final project for a course at NJIT, my team worked together to train several machine learning models with the task of age prediction. The motivations behind this was to see if there were factors that may contribute more towards aging than others, and perhaps we could counter these factors with future research.
+                
+            \end{itemize}
+            \vspace*{2mm}
+            
+            {\textbf{Anomalous Activity Detection}}\\
+            \textit{, , }
+            \vspace{-1mm}
+            \begin{itemize} \itemsep 1pt
+            
+                    \item The majority of the job of threat detection is identifying odd behavior. This project was meant as another means of analyzing data and flagging suspicious activity for review by the operator.
+                
+            \end{itemize}
+            \vspace*{2mm}
+            
+            {\textbf{Home Lab}}\\
+            \textit{, , }
+            \vspace{-1mm}
+            \begin{itemize} \itemsep 1pt
+            
+                    \item Maintain Docker services within virtual machines hosted on Proxmox
+                
+                    \item Several, smaller projects built with Raspberry Pi (e.g., moisture/temperature sensor, EMS direction finder)
+                
+                    \item Provides a platform for learning, experimentation, and testing new projects
+                
+            \end{itemize}
+            \vspace*{2mm}
+            
+            {\textbf{Multiplayer Survival Game}}\\
+            \textit{}
+            \vspace{-1mm}
+            \begin{itemize} \itemsep 1pt
+            
+                    \item A multiplayer survival game that takes inspiration from mythology and civilizations from different time periods. This game aims to allow the user more control over their journey with multiple paths they can take which affect the world around them.
+                
+                    \item This is a work in progress, with the main intent being to learn the technology. If the game gets advanced enough to be released, that would be an added benefit.
+                
+            \end{itemize}
+            \vspace*{2mm}
+            
+\end{document}

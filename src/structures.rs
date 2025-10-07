@@ -108,11 +108,48 @@ impl ResumeItem for Education {
     }
 }
 
+pub struct Skill {
+    name: String,
+    slug: String,
+}
+
+impl ResumeItem for Skill {
+    fn get_latex(&self) -> String {
+        "".to_owned()
+    }
+
+    fn from_json(json: &serde_json::Value) -> Self {
+        let name = json["skill"].as_str().expect("Failed to parse details").to_string();
+        let slug = json["slug"].as_str().expect("Failed to parse details").to_string();
+
+        Self {
+            name,
+            slug,
+        }
+    }
+}
+
 pub struct Project {
     name: String,
     skills: Vec<String>,
     summary: Vec<String>,
 }
+
+impl Project {
+    pub fn set_skill_names(&mut self, skills: &[Skill]) {
+        self.skills = self.skills
+            .iter()
+            .map(|slug| {
+                skills
+                    .iter()
+                    .find(|skill| skill.slug.eq(slug))
+                    .map(|skill| skill.name.clone())
+                    .unwrap_or_else(|| slug.clone())
+            })
+            .collect();
+    }
+}
+
 
 impl ResumeItem for Project {
     fn get_latex(&self) -> String {
@@ -139,11 +176,12 @@ impl ResumeItem for Project {
 
     fn from_json(json: &serde_json::Value) -> Self {
         let name = json["name"].as_str().expect("Failed to parse details").to_string();
+
         let skills = json["skills"]
             .as_array()
             .expect("Failed to parse details")
             .iter()
-            .map(|v| v.as_str().unwrap_or_default().to_string())
+            .map(|v| v["skill_slug"].as_str().unwrap_or_default().to_string())
             .collect();
         let summary = json["summary"]
             .as_array()
@@ -297,7 +335,7 @@ impl Resume {
         \begin{document}
     \vspace*{-40pt}
     "#.to_owned();
-        
+
         latex += &self.build_latex_header();
 
         for section in &self.sections {
@@ -318,7 +356,7 @@ impl Resume {
             sections,
         }
     }
-    
+
     pub fn get_title(&self) -> String {
         self.title.clone()
     }
