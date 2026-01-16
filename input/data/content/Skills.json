@@ -61,6 +61,7 @@
     "level": 6,
     "summary": "Cloud platform for scalable computing, storage, networking, and DevOps services used in modern infrastructure.",
     "details": [
+      "Built a Redshift Serverless cluster queried via API Gateway and Lambda for asynchronous SQL access to production data, and created AWS Glue jobs to migrate datasets from S3 into Redshift",
       "Experience working with an AWS environment in support of a project at L3Harris"
     ],
     "slug": "aws"
@@ -71,6 +72,7 @@
     "level": 6,
     "summary": "React-based framework for building fast, SEO-friendly websites and full-stack web applications.",
     "details": [
+      "Built an ads analytics dashboard for Amazon as part of an intern project",
       "Built responsive portfolio website with data drawing from Json documents for easy updates",
       "Built business website as part of a school project. This is the <a href=\"https://is-601-fall-group-final.vercel.app/\">website</a> and this is the <a href=\"https://github.com/xaviergaray/IS601FallGroupFinal\">repository</a>"
     ],
@@ -82,6 +84,7 @@
     "level": 8,
     "summary": "Language for managing and querying structured data in relational database systems.",
     "details": [
+      "Used to make complex analytical queries on an AWS Redshift instance containing production data",
       "Used as database in several projects built for organizations within the Department of Defense",
       "Built patient, staff, and room tracking database for a mock hospital as part of a school project interfaced with Python and simple html for a website frontend"
     ],

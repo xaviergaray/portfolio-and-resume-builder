@@ -55,7 +55,24 @@
     ],
     "slug": "njarng-cwo"
   },
-
+  {
+    "title": "Software Development Engineer, Intern",
+    "company": "Amazon",
+    "logo": "/logos/amazon.svg",
+    "location": "New York, NY",
+    "date_range": "September 2025 - December 2025",
+    "details": [
+      "Designed and built a React ad performance analytics dashboard used by stakeholders to analyze campaign effectiveness across creative metadata dimensions",
+      "Architected an end-to-end AWS analytics backend using Redshift Serverless, API Gateway, and Lambda for asynchronous SQL access to production data, with AWS Glue jobs to migrate datasets from S3 into Redshift"
+    ],
+    "skills": [
+      {
+        "skill_slugs": ["nextjs", "sql", "aws"],
+        "description": "Built a React app and Redshift Serverless cluster queried via API Gateway and Lambda for asynchronous SQL access to production data, and created AWS Glue jobs to migrate datasets from S3 into Redshift."
+      }
+    ],
+    "slug": "amazon-sde"
+  },
   {
     "title": "Mechanical Engineering Intern",
     "company": "MIT Lincoln Laboratory",
